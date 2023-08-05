@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    color: #bfc1c8;
+font-size: 14px;
+
+}
+body{
+    background-color: #1e202b  ;
+
+}
+
+/* .item-header {
+    background-color:red !important;
+} */
+/* navbar */
+.link {
+    text-decoration: none;
+color: aliceblue;
+font-size:10px;
+
+}
+.navbar{
+    padding: 30px;
+    background-color: #1e202b  ;
+}
+.navbar li a{
+    line-height: 30px;
+    margin: 8px 10px;
+    border-radius: 35px;
+    padding: 2px 10px;
+
+    border: 2px solid transparent;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.nav-item  a:hover{
+
+    border-radius: 35px;
+    border: 2px solid #009ad8;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    color: #009ad8 !important;
+}
+/* header */
+header{
+    background-image: url(../images/banner.png) ;
+    height: 70vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.img-layer{
+  background-color: rgba(0, 0, 0, 0.4);
+    height: 70vh;
+    width: 100%;
+
+}
+input{
+    background-color: #1e202b !important ;
+    color: white !important;
+
+}
+.search_input{
+    padding: 10%;
+}
+::placeholder{
+    color: white !important;
+}
+.form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+.item-header{
+    background-color: 2D303D;
+}
+.item{
+    background-color: rgb(50,53,68);
+}
+.degree{
+    font-size: 50px;
+    font-weight: 700;
+}
+.content img{
+    width: 10%;
+}
+ .subscribe{
+    background-color:rgb(30,32,43) !important;
+    /* padding-top: 17%; */
+} 
+.social-links a i{
+    color: #009ad8 !important;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color:transparent !important;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.social-links a i:hover{
+    color:white !important;
+    background-color: #009ad8;
+   
+}
+footer{
+    background-color:rgb(38,41,54) ;
+}
+.buttons{
+
+    left: 75%;
+    bottom: 45%;
+        background-color: aqua;
+
+}
+.subscribe_btn{
+    top: 5px;
+    z-index: 0;
+    bottom: 5px;
+    left:85%;
+    right: 20px;
+}
+
